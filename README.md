@@ -1,20 +1,25 @@
-# Uso
-- Colar o código em `app.py`
+# Aposentando o JSON server
 
-- Iniciar e entrar no venv
+### Como usar
 
+##### Primeiro passo
+Clone este repositório pra sua máquina.
+
+##### Segundo passo
+Entre no ambiente virtual:
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
+Instale as dependências que não tiver, todas as necessárias 
+estão listadas no arquivo "requirements.txt".
 
--   **NÃO** se esqueça de instalar o flask
-
-- Rodar o **pytest**
-
+Para saber quais você já possui rode o seguinte comando:
 ```bash
-pytest -svv
+pip freeze
 ```
-
--   **NÃO** se esqueça de criar o requirements.txt
--   **NÃO** se esqueça de criar o .gitignore
+Com tudo pronto, rode o comando 
+```bash
+flask run
+``` 
+no terminal e veja a mágica.
